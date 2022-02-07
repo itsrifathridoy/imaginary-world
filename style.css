@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+@font-face {
+    font-family: "Education";
+    src: url(font1.ttf) format("truetype");
+  }
+body{
+    height: 500px;
+    background-color: #e91e63;
+    background-attachment: scroll;
+}
+.box{
+    
+    background: #fff;
+    color: #e91e63;
+    width: 80%;
+    text-align: center;
+    padding:5% 5%;
+    margin: 25% auto;
+    border-radius: 10px;
+    
+}
+.box h3{
+    font-family: 'Gochi Hand', cursive;
+  text-align: center;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+#flight{
+    height: 80px;
+
+}
+.form-control{
+    width: fit-content;
+    margin: 0px auto;
+}
+.form-control:focus{
+    border-color: #e91e63;
+}
